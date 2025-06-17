@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pymongo
+paho-mqtt
+python-jose[cryptography]
+bcrypt
+scikit-learn
