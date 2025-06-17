@@ -20,3 +20,4 @@ def start_mqtt_subscriber():
     client.connect("test.mosquitto.org", 1883, 60)
     client.subscribe("fatec/iot/umidade")
     client.loop_start()  # Escuta o tópico em segundo plano
+
